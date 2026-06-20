@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 25px;
   font-family: Arial;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+ background: linear-gradient(135deg, #2563eb, #4f46e5, #7c3aed);
   display: flex;
   justify-content: center;
   text-align: center;
@@ -31,14 +31,14 @@ body {
     border-radius:12px;
     box-shadow:0 10px 25px rgba(0,0,0,.2);
 }
-/* TITLE */
+
 h2 {
   margin-bottom: 20px;
   color: #333;
   text-align: center;
 }
 
-/* INPUT FIELDS */
+
 input {
   width: 100%;
   padding: 12px;
@@ -54,11 +54,11 @@ input:focus {
   box-shadow: 0 0 5px rgba(102,126,234,0.5);
 }
 
-/* BUTTON */
+
 button {
   width: 100%;
   padding: 12px;
-  background: blue;
+  background:  #4f5bd5;
   color: white;
   border: none;
   border-radius: 6px;
@@ -66,14 +66,14 @@ button {
 }
 
 button:hover {
-  background: #5a67d8;
+  background: #3f4cc9;
 }
 
 
 a {
   display: inline-block;
   margin-top: 15px;
-  color: #5a67d8;
+  color: #667eea;
   text-decoration: none;
 }
 
@@ -81,7 +81,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* HOME PAGE NAVBAR */
 .navbar {
   position: fixed;
   top: 0;
@@ -93,7 +92,7 @@ a:hover {
   padding: 15px 30px;
 }
 
-/* HOME CONTENT */
+
 .home-box {
   background: white;
   padding: 30px;

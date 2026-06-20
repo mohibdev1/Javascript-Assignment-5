@@ -7,7 +7,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
 
-// SIGNUP
+
 window.signup = function () {
   let email = document.getElementById("email").value;
   let password = document.getElementById("password").value;
@@ -22,8 +22,6 @@ window.signup = function () {
     });
 };
 
-
-// LOGIN
 window.login = function () {
   let email = document.getElementById("email").value;
   let password = document.getElementById("password").value;
@@ -38,15 +36,12 @@ window.login = function () {
 };
 
 
-// LOGOUT
 window.logout = function () {
   signOut(auth).then(() => {
     window.location.href = "index.html";
   });
 };
 
-
-// AUTO LOGIN CHECK
 onAuthStateChanged(auth, (user) => {
   if (user) {
     if (document.getElementById("userEmail")) {
