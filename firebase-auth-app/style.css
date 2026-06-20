@@ -7,27 +7,35 @@
 }
 
 body {
+  margin: 0;
+  padding: 25px;
+  font-family: Arial;
   background: linear-gradient(135deg, #667eea, #764ba2);
-  height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-/* MAIN CARD */
-.container {
-  background: white;
-  width: 350px;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
   text-align: center;
 }
-
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container{
+    width:350px;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
 /* TITLE */
 h2 {
   margin-bottom: 20px;
   color: #333;
+  text-align: center;
 }
 
 /* INPUT FIELDS */
@@ -50,25 +58,22 @@ input:focus {
 button {
   width: 100%;
   padding: 12px;
-  background: #667eea;
+  background: blue;
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 6px;
   cursor: pointer;
-  margin-top: 10px;
-  font-size: 16px;
-  transition: 0.3s;
 }
 
 button:hover {
   background: #5a67d8;
 }
 
-/* LINKS */
+
 a {
   display: inline-block;
   margin-top: 15px;
-  color: #667eea;
+  color: #5a67d8;
   text-decoration: none;
 }
 
